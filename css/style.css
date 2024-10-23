@@ -257,7 +257,8 @@ body::-webkit-scrollbar-thumb:hover {
   left: 0;
   top: 0;
   z-index: 20;
-  padding-block: 1rem
+  padding-block: 1.875rem;
+  transition: all .4s
 }
 .header::after {
   content: "";
@@ -271,6 +272,7 @@ body::-webkit-scrollbar-thumb:hover {
   transition: all .4s
 }
 .header._header-scroll {
+  padding-block: .9375rem;
   backdrop-filter: blur(.1875rem);
   box-shadow: 0 0 .625rem rgba(0,0,0,.6)
 }
