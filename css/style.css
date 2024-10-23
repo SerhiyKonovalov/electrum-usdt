@@ -484,7 +484,7 @@ body::-webkit-scrollbar-thumb:hover {
   height: 2.1875rem
 }
 .install-guide {
-  background: #9e9e9e;
+  background: silver;
   padding-block: 6.25rem 4.375rem;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
   font-size: 16px;
@@ -547,7 +547,7 @@ body::-webkit-scrollbar-thumb:hover {
   margin-bottom: 1rem
 }
 .markdown-body table tr {
-  background-color: #e0e0e0;
+  background-color: #dfdfdf;
   border-top: 1px solid #dbdbdb
 }
 .markdown-body table td,
@@ -562,7 +562,7 @@ body::-webkit-scrollbar-thumb:hover {
   font-size: 85%;
   line-height: 1.45;
   color: #000;
-  background-color: #e0e0e0;
+  background-color: #dfdfdf;
   border-radius: 6px;
   word-wrap: normal
 }
@@ -572,7 +572,7 @@ body::-webkit-scrollbar-thumb:hover {
   margin: 0;
   font-size: 85%;
   white-space: break-spaces;
-  background-color: #c9c9c9;
+  background-color: #cfcfcf;
   border-radius: 6px
 }
 .markdown-body ol,
@@ -583,7 +583,7 @@ body::-webkit-scrollbar-thumb:hover {
   list-style-type: disc
 }
 .license {
-  background: #9e9e9e;
+  background: silver;
   padding-block: 10rem 6.25rem
 }
 .license__container {
@@ -598,7 +598,7 @@ body::-webkit-scrollbar-thumb:hover {
   gap: .9375rem;
   font-size: 2.5rem;
   line-height: normal;
-  color: #009393;
+  color: #046868;
   margin-bottom: 1.875rem
 }
 .license__title img {
@@ -610,7 +610,7 @@ body::-webkit-scrollbar-thumb:hover {
 .license__text {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
   font-size: 1.125rem;
-  max-width: 38.75rem;
+  max-width: 50rem;
   line-height: 1.5;
   color: #000;
   word-spacing: .0625rem
