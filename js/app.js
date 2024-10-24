@@ -471,8 +471,8 @@
             }));
         }
     }), 0);
-    const typedTextElement = document.getElementById("typed-text");
-    const cursorElement = document.querySelector(".cursor");
+    const typedTextElement = document.querySelector(".hero__typed-text");
+    const cursorElement = document.querySelector(".hero__cursor");
     const phrases = [ "A Secure And User-Friendly Digital Currency", "Focus on simplicity and privacy..", "Lorem ipsum dolor sit amet consectetur" ];
     let currentPhraseIndex = 0;
     let currentCharacterIndex = 0;
