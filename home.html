@@ -7,7 +7,7 @@
 	<meta name="format-detection" content="telephone=no">
 	<meta name="viewport" content="width=1130px, initial-scale=1.0">
 	<meta name="author" content="electrum-usdt.org">
-	<link rel="stylesheet" href="css/style.min.css?_v=20241023225457">
+	<link rel="stylesheet" href="css/style.min.css?_v=20241024165656">
 	<link rel="shortcut icon" type="image/x-icon" sizes="16x16" href="favicon.ico">
 	<link rel="icon" type="image/webp" sizes="16x16" href="img/favicon/16x16.webp">
 	<link rel="icon" type="image/webp" sizes="32x32" href="img/favicon/32x32.webp">
@@ -47,11 +47,11 @@
 						<li class="menu__item">
 							<a href="home.html#about" class="menu__link" data-goto=".about" data-goto-header>About</a>
 						</li>
-						<li class="menu__item">
-							<a href="home.html#community" class="menu__link" data-goto=".community" data-goto-header>Community</a>
-						</li>
 						<li class="menu__item ">
 							<a href="home.html#features" class="menu__link" data-goto=".features" data-goto-header>Features</a>
+						</li>
+						<li class="menu__item">
+							<a href="home.html#community" class="menu__link" data-goto=".community" data-goto-header>Community</a>
 						</li>
 						<li class="menu__item">
 							<a href="home.html#faq" class="menu__link" data-goto=".faq" data-goto-header>FAQs</a>
@@ -71,9 +71,9 @@
 									<span itemprop="name" class="hero__title--label">Electrum USDT Wallet</span>
 								</a>
 							</span>
-							<div class="typing-container">
-								<span id="typed-text"></span>
-								<span class="cursor">|</span>
+							<div class="hero__typing-container">
+								<span class="hero__typed-text"></span>
+								<span class="hero__cursor"></span>
 							</div>
 						</h1>
 						<div class="hero__text" itemprop="description">
@@ -112,38 +112,26 @@
 					</div>
 				</div>
 			</article>
-			<article class="community" id="community" data-watch="navigator" itemscope itemtype="https://schema.org/Article">
-				<div class="community__container">
-					<div class="community__content">
-						<div class="community__header header-modifier">
-							<h2 class="header-modifier__title" itemprop="headline">Connect with the USDT <span>Community</span></h2>
+			<article class="about about--reverse" id="about" data-watch="navigator" itemscope itemtype="https://schema.org/Article">
+				<div class="about__container about__container--reverse">
+					<div class="about__image">
+						<img src="img/about/image2.webp" alt="Electrum USDT Image" itemprop="image">
+					</div>
+					<div class="about__content">
+						<div class="about__header header-modifier">
+							<h2 class="header-modifier__title" itemprop="headline">Some Other Information <span>About</span> Electrum USDT</h2>
 							<div class="header-modifier__subtitle" itemprop="description">
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis facere iste explicabo nisi nobis iure vero ducimus nihil commodi. Beatae ad suscipit impedit doloremque pariatur qui nam nihil amet explicabo. Beatae ad suscipit impedit doloremque pariatur qui nam nihil amet explicabo</p>
+								<p>
+									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex neque qui quas quia necessitatibus velit aut animi. Laboriosam quos non unde iste dignissimos! Reiciendis deserunt consequuntur, nostrum accusamus aut ex.
+								</p>
 							</div>
 						</div>
-						<div class="community__social">
-							<a href="#" class="community__link" itemprop="url">
-								<img src="img/community/01.svg" class="community__icon" alt="github icon" itemprop="image">
-							</a>
-							<a href="#" class="community__link" itemprop="url">
-								<img src="img/community/02.svg" class="community__icon" alt="twitter icon" itemprop="image">
-							</a>
-							<a href="#" class="community__link" itemprop="url">
-								<img src="img/community/03.svg" class="community__icon" alt="instagram icon" itemprop="image">
-							</a>
-							<a href="#" class="community__link" itemprop="url">
-								<img src="img/community/04.svg" class="community__icon" alt="reddit icon" itemprop="image">
-							</a>
-							<a href="#" class="community__link" itemprop="url">
-								<img src="img/community/05.svg" class="community__icon" alt="facebook icon" itemprop="image">
-							</a>
-							<a href="#" class="community__link" itemprop="url">
-								<img src="img/community/06.svg" class="community__icon" alt="crowdin icon" itemprop="image">
-							</a>
-						</div>
-					</div>
-					<div class="community__image">
-						<img src="img/community/image.webp" alt="Community Image" itemprop="image">
+						<ul class="about__list" itemprop="description">
+							<li class="about__item">Quality and Security</li>
+							<li class="about__item">Lorem ipsum dolor sit, amet consectetur</li>
+							<li class="about__item">Safe and Instant On</li>
+							<li class="about__item">Lorem ipsum dolor sit, amet consectetur</li>
+						</ul>
 					</div>
 				</div>
 			</article>
@@ -198,6 +186,41 @@
 					</div>
 				</div>
 			</section>
+			<article class="community" id="community" data-watch="navigator" itemscope itemtype="https://schema.org/Article">
+				<div class="community__container">
+					<div class="community__content">
+						<div class="community__header header-modifier">
+							<h2 class="header-modifier__title" itemprop="headline">Connect with the USDT <span>Community</span></h2>
+							<div class="header-modifier__subtitle" itemprop="description">
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis facere iste explicabo nisi nobis iure vero ducimus nihil commodi. Beatae ad suscipit impedit doloremque pariatur qui nam nihil amet explicabo. Beatae ad suscipit impedit doloremque pariatur qui nam nihil amet explicabo</p>
+							</div>
+						</div>
+						<div class="community__social">
+							<a href="#" class="community__link" itemprop="url">
+								<img src="img/community/01.svg" class="community__icon" alt="github icon" itemprop="image">
+							</a>
+							<a href="#" class="community__link" itemprop="url">
+								<img src="img/community/02.svg" class="community__icon" alt="twitter icon" itemprop="image">
+							</a>
+							<a href="#" class="community__link" itemprop="url">
+								<img src="img/community/03.svg" class="community__icon" alt="instagram icon" itemprop="image">
+							</a>
+							<a href="#" class="community__link" itemprop="url">
+								<img src="img/community/04.svg" class="community__icon" alt="reddit icon" itemprop="image">
+							</a>
+							<a href="#" class="community__link" itemprop="url">
+								<img src="img/community/05.svg" class="community__icon" alt="facebook icon" itemprop="image">
+							</a>
+							<a href="#" class="community__link" itemprop="url">
+								<img src="img/community/06.svg" class="community__icon" alt="crowdin icon" itemprop="image">
+							</a>
+						</div>
+					</div>
+					<div class="community__image">
+						<img src="img/community/image.webp" alt="Community Image" itemprop="image">
+					</div>
+				</div>
+			</article>
 			<section class="faq" id="faq" data-watch="navigator" itemscope itemtype="https://schema.org/FAQPage">
 				<div class="faq__container">
 					<div class="faq__header header-modifier">
@@ -311,7 +334,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20241023225457"></script>
+	<script src="js/app.min.js?_v=20241024165656"></script>
 </body>
 
 </html>
